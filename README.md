@@ -13,6 +13,8 @@ U33004 - ATEND. DENUNCIA INFRACOES CONTRA MULHER(VIOLENCIA DOMESTICA)
 
 A20003 - INCLUSAO DA VITIMA E AVALIACAO DE RISCO
 
+OBS: Dados fictícios.
+
 Tabela 1, vítimas natureza A20003.
 
 |nome1|natureza1|data\_fato1|
