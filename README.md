@@ -37,7 +37,7 @@ Tabela 2, vítimas natureza U33004.
 
 DICA: pensar em “JOINS” como preservação ou exclusão de linhas de uma determinada tabela conforme exemplos abaixo.
 
-|<p>![SQL INNER JOIN](Aspose.Words.c2bee8ec-4a3c-41b7-b28f-c77392f9c5ca.001.png)</p><p>Traz somente linhas iguais nas duas tabelas.</p>|<p>![SQL LEFT JOIN](Aspose.Words.c2bee8ec-4a3c-41b7-b28f-c77392f9c5ca.002.png)</p><p>Traz as linhas iguais e preserva todas linhas da tabela1.</p>|<p>![SQL RIGHT JOIN](Aspose.Words.c2bee8ec-4a3c-41b7-b28f-c77392f9c5ca.003.png)</p><p>Traz linhas iguais e preserva todas linhas da tabela2.</p>|
+|<p>![SQL INNER JOIN](innerjoin.png)</p><p>Traz somente linhas iguais nas duas tabelas.</p>|<p>![SQL LEFT JOIN](leftjoin.png)</p><p>Traz as linhas iguais e preserva todas linhas da tabela1.</p>|<p>![SQL RIGHT JOIN](rightjoin.png)</p><p>Traz linhas iguais e preserva todas linhas da tabela2.</p>|
 | :-: | :-: | :-: |
 |<p>SELECT coluna</p><p>From TABLE1 </p><p>INNER JOIN TABLE2</p><p>ON TABLE1.key=TABLE2.key</p>|<p>SELECT coluna</p><p>From TABLE1 </p><p>LEFT JOIN TABLE2</p><p>ON TABLE1.key=TABLE2.key</p>|<p>SELECT coluna</p><p>From TABLE1 </p><p>RIGHT JOIN TABLE2</p><p>ON TABLE1.key=TABLE2.key</p>|
 
@@ -57,7 +57,7 @@ WHERE t1.data\_fato1 < t2.data\_fato2
 
 RESULTADO:
 
-|` `Nome vitima reincidente|
+|Nome vitima reincidente|
 | :- |
 |Maria Clara|
 |Aline Oliveira|
